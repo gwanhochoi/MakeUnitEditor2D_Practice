@@ -58,9 +58,11 @@ public class EditorMgr : MonoBehaviour
     }
 
 
-    public void Change_Unit_Items(ItemSO itemSO)
+    public void Change_Unit_Items(WearItemInfo itemInfo, ITEM_TYPE item_type)
     {
-        //Unit_ShowWindow.GetComponent<Unit_Script>().Change_Items(itemSO);
-        Unit_ShowWindow.GetComponent<ItemPositionSet>().Set_Sprite(itemSO);
+        string[] parts_str = { "Body", "Eyes", "Hair", "Mustache", "Helmet", "Cloth", "Pants", "Armor", "Back", "Weapon", "Weapon" };
+
+        
+        Unit_ShowWindow.GetComponent<Character_Script>().Change_parts(item_type, parts_str[(int)item_type], itemInfo);
     }
 }

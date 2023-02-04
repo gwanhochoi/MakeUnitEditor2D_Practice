@@ -34,11 +34,13 @@ public class ResourceMgr : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        jsonUtil = new JsonUtil();
     }
+
+    JsonUtil jsonUtil;
 
     public GameObject Item_Prefab;
 
-    public List<ItemBundleSO> m_hairbundleSO_List;
 
     private Item[] m_EyesItems;
     private Item[] m_BodyItems;
@@ -77,32 +79,46 @@ public class ResourceMgr : MonoBehaviour
     {
         Item[] items;
 
-        //Sprite[] sprites = Resources.LoadAll<Sprite>("Sprites/" + part);
+        string o_parts = part;
+
+        if (o_parts == "Weapon_R" || o_parts == "Weapon_L")
+            o_parts = "Weapon";
+
+        //Sprite[] sprites = Resources.LoadAll<Sprite>("Sprites/" + o_parts);
+        Texture2D[] textures = Resources.LoadAll<Texture2D>("Sprites/" + o_parts);
+
+        ITEM_TYPE item_type = StringToItemType(part);
+
+        if (part == "Hair" || part == "Helmet")
+            part = "Hair_Helmet";
+
+        //load json
+        List<WearItemInfo> iteminfo_list = jsonUtil.Load_Data < List < WearItemInfo >> (part);
+        if (iteminfo_list == null)
+            return null;
+        Dictionary<string, WearItemInfo> items_dic = new Dictionary<string, WearItemInfo>();
+        foreach(var child in iteminfo_list)
+        {
+            items_dic[child.texture_name] = child;
+        }
 
         //items = new Item[sprites.Length];
+        items = new Item[textures.Length];
 
-        //for(int i = 0; i < sprites.Length; i++)
-        //{
-        //    GameObject obj = Instantiate(Item_Prefab);
-        //    items[i] = obj.GetComponent<Item>();
-        //    items[i].Init(sprites[i], StringToItemType(part));
-        //}
-
-        int index = (int)StringToItemType(part);
-        int count = m_hairbundleSO_List[index].ItemList.Count;
-        items = new Item[m_hairbundleSO_List[index].ItemList.Count];
-
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < textures.Length; i++)
         {
             GameObject obj = Instantiate(Item_Prefab);
             items[i] = obj.GetComponent<Item>();
-            items[i].Init(m_hairbundleSO_List[index].ItemList[i]);
+            items[i].Init(textures[i], items_dic.ContainsKey(textures[i].name)? items_dic[textures[i].name]:null,
+                item_type);
         }
+
 
         if (items.Length == 0)
             return null;
 
         return items;
+
         
     }
 
