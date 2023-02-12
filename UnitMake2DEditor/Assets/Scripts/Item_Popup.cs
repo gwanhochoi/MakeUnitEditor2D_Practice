@@ -19,7 +19,7 @@ public class Item_Popup : MonoBehaviour
         
 
         //리소스매니저에서 오브젝 가져오자
-        Item[] items = ResourceMgr.Instance.Get_Items(part);
+        Dictionary<string, Item> items = ResourceMgr.Instance.Get_Items(part);
 
         if(items == null)
         {
@@ -29,10 +29,10 @@ public class Item_Popup : MonoBehaviour
 
         foreach (var child in items)
         {
-            if (!child.gameObject.activeSelf)
-                child.gameObject.SetActive(true);
-            child.transform.SetParent(scrollRect.content.transform);
-            child.transform.localScale = new Vector3(1, 1, 1);
+            if (!child.Value.gameObject.activeSelf)
+                child.Value.gameObject.SetActive(true);
+            child.Value.transform.SetParent(scrollRect.content.transform);
+            child.Value.transform.localScale = new Vector3(1, 1, 1);
         }
     }
 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cddf19f61e1fd44fc8a2aa8d2aecc21a
+  m_SerializeEntries:
+  - m_GUID: 26d20664f63394f8fa031e140c1faf13
+    m_Address: Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Armor_Texture
+  - m_GUID: c4c966167f2484b658e531b256ad386c
+    m_Address: Back
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Back_Texture
+  - m_GUID: 78f4baa5fbad04ca7b0d81d4bbab3646
+    m_Address: Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Body_Texture
+  - m_GUID: c07d756bf568545ca9cdd7f0a2ab104e
+    m_Address: Cloth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Cloth_Texture
+  - m_GUID: eaaaa2aaa36ab4de58b625351b4d9d80
+    m_Address: Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Eyes_Texture
+  - m_GUID: fb06557aad3734622a03ccf396de5c83
+    m_Address: Hair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Hair_Texture
+  - m_GUID: b2d572a9b322c45c39e90f19e899cccf
+    m_Address: Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Helmet_Texture
+  - m_GUID: b098577e4db384c33bdee8016f7d0e18
+    m_Address: Mustache
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Mustache_Texture
+  - m_GUID: 79fb21c819ed34a0b97b67b65c2ae788
+    m_Address: Pants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Pants_Texture
+  - m_GUID: a7466eb1a81ed45d19f3d902aee56c4a
+    m_Address: Weapon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemTexture
+    - Weapon_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ab44a6579e54c4f0eb5cb3f0c3aaf14c, type: 2}
+    - {fileID: 11400000, guid: 3b50875b4932d4091ac1ea0fcfb72515, type: 2}

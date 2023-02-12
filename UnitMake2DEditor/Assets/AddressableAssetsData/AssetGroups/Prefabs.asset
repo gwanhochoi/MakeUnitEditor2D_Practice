@@ -15,16 +15,11 @@ MonoBehaviour:
   m_GroupName: Prefabs
   m_Data:
     m_SerializedData: []
-  m_GUID: 5aeed03cbf15848fba761b1a3ddcfabc
-  m_SerializeEntries:
-  - m_GUID: 883941c87488f4a62a80c96d75d475e3
-    m_Address: SampleObj
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Prefabs
+  m_GUID: 6ed852f153eb74e8d87b652b0f1ea7df
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: e3437ffddfd14417fa73e73137a9a91b, type: 2}
-    - {fileID: 11400000, guid: 18c4622d9e3814e76911128a25fcdf88, type: 2}
+    - {fileID: 11400000, guid: bf7339e469132475c887455a93e055b1, type: 2}
+    - {fileID: 11400000, guid: 00b9a5cfaea3a4c7aadb2bd86f32cef8, type: 2}

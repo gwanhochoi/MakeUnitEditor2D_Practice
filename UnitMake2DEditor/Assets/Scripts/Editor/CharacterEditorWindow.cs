@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+using System.IO;
 
 public enum EditFlag
 {
@@ -190,15 +190,7 @@ public class CharacterEditorWindow : EditorWindow
         Load_JsonData();
     }
 
-    //private void Awake()
-    //{
-    //    items_dic = new Dictionary<string, WearItemInfo>[parts_save_str.Length];
-    //    for (int i = 0; i < parts_save_str.Length; i++)
-    //        items_dic[i] = new Dictionary<string, WearItemInfo>();
 
-    //    Load_JsonData();
-        
-    //}
 
     string[] parts_save_str = { "Eyes", "Hair_Helmet", "Mustache", "Cloth", "Pants", "Armor", "Back", "Weapon_R", "Weapon_L" };
 
@@ -227,22 +219,34 @@ public class CharacterEditorWindow : EditorWindow
         {
             item_list.Add(child.Value);
         }
-        jsonUtil.Save_Data(parts_save_str[index], item_list);
+
+        string path = Path.Combine(Application.dataPath + "/ItemJson/", parts_save_str[index] + ".json");
+        jsonUtil.Save_Data(path, item_list);
     }
 
     private void Load_JsonData()
     {
         //load
         jsonUtil = new JsonUtil();
-        List<WearItemInfo> eyes_list = jsonUtil.Load_Data<List<WearItemInfo>>("Eyes");
-        List<WearItemInfo> hair_helmet_list = jsonUtil.Load_Data<List<WearItemInfo>>("Hair_Helmet");
-        List<WearItemInfo> mustache_list = jsonUtil.Load_Data<List<WearItemInfo>>("Mustache");
-        List<WearItemInfo> cloth_list = jsonUtil.Load_Data<List<WearItemInfo>>("Cloth");
-        List<WearItemInfo> pants_list = jsonUtil.Load_Data<List<WearItemInfo>>("Pants");
-        List<WearItemInfo> armor_list = jsonUtil.Load_Data<List<WearItemInfo>>("Armor");
-        List<WearItemInfo> back_list = jsonUtil.Load_Data<List<WearItemInfo>>("Back");
-        List<WearItemInfo> weapon_r_list = jsonUtil.Load_Data<List<WearItemInfo>>("Weapon_R");
-        List<WearItemInfo> weapon_l_list = jsonUtil.Load_Data<List<WearItemInfo>>("Weapon_L");
+
+        string path = Path.Combine(Application.dataPath + "/ItemJson/", "Eyes" + ".json");
+        List<WearItemInfo> eyes_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Hair_Helmet" + ".json");
+        List<WearItemInfo> hair_helmet_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Mustache" + ".json");
+        List<WearItemInfo> mustache_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Cloth" + ".json");
+        List<WearItemInfo> cloth_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Pants" + ".json");
+        List<WearItemInfo> pants_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Armor" + ".json");
+        List<WearItemInfo> armor_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Back" + ".json");
+        List<WearItemInfo> back_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Weapon_R" + ".json");
+        List<WearItemInfo> weapon_r_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
+        path = Path.Combine(Application.dataPath + "/ItemJson/", "Weapon_L" + ".json");
+        List<WearItemInfo> weapon_l_list = jsonUtil.Load_Data<List<WearItemInfo>>(path);
 
         // "Eyes", "Hair_Helmet", "Mustache", "Cloth", "Pants", "Armor", "Back", "Weapon_L", "Weapon_R" };
         WearItemList_To_Dictionary(ref eyes_list, ref items_dic[0]);
@@ -279,4 +283,5 @@ public class CharacterEditorWindow : EditorWindow
         result.Apply();
         return result;
     }
+
 }

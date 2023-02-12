@@ -21,10 +21,10 @@ public class Item : MonoBehaviour
         image.sprite = sprite;
         if (itemInfo == null)
         {
-            itemInfo = new WearItemInfo(sprite.name);
+            this.itemInfo = new WearItemInfo(texture.name);
         }
-        
-        this.itemInfo = itemInfo;
+        else
+            this.itemInfo = itemInfo;
         
         this.item_type = item_type;
     }

@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class Character_Script : MonoBehaviour
 {
+
+    public string unit_name { get; set; }
+    public List<WearSkinInfo> skin_list;
+
     public SpriteRenderer Head_SR;
     public SpriteRenderer Body_SR;
     public SpriteRenderer Arm_R_SR;
@@ -33,6 +37,43 @@ public class Character_Script : MonoBehaviour
     public SpriteRenderer Shield_R_SR;
     public SpriteRenderer Shield_L_SR;
 
+
+    public void Change_Item_Color(ITEM_TYPE item_type, Color color)
+    {
+
+        
+        switch (item_type)
+        {
+            
+            case ITEM_TYPE.Eyes: Eye_R_Front_SR.color = color; Eye_L_Front_SR.color = color; break;
+            case ITEM_TYPE.Hair: case ITEM_TYPE.Helmet: Hair_Helmet_SR.color = color; break;
+            case ITEM_TYPE.Mustache: Mustache_SR.color = color; break;
+            case ITEM_TYPE.Cloth: Cloth_Body_SR.color = color; Cloth_R_SR.color = color; Cloth_L_SR.color = color; break;
+            case ITEM_TYPE.Pants: Pants_R_SR.color = color; Pants_L_SR.color = color; break;
+            case ITEM_TYPE.Armor: Armor_Body_SR.color = color; Armor_R_SR.color = color; Armor_L_SR.color = color; break;
+            case ITEM_TYPE.Back: Back_SR.color = color; break;
+            case ITEM_TYPE.Weapon_R:
+                if(Weapon_R_SR.sprite != null)
+                {
+                    Weapon_R_SR.color = color;
+                }
+                if(Shield_R_SR.sprite != null)
+                {
+                    Shield_R_SR.color = color;
+                }
+                break;
+            case ITEM_TYPE.Weapon_L:
+                if (Weapon_L_SR.sprite != null)
+                {
+                    Weapon_L_SR.color = color;
+                }
+                if (Shield_L_SR.sprite != null)
+                {
+                    Shield_L_SR.color = color;
+                }
+                break;
+        }
+    }
 
     public void Change_parts(ITEM_TYPE item_type, string parts_name, WearItemInfo item)
     {
@@ -75,6 +116,23 @@ public class Character_Script : MonoBehaviour
             case ITEM_TYPE.Weapon_L: return Weapon_L_SR.sprite != null ? Weapon_L_SR.sprite.texture.name :
                     Shield_L_SR.sprite != null ? Shield_L_SR.sprite.texture.name : "";
             default: return "none";
+        }
+    }
+
+    public void Undress_Parts(string parts)
+    {
+        switch(parts)
+        {
+            case "Eyes": Eye_R_Back_SR.sprite = null; Eye_R_Front_SR.sprite = null;
+                Eye_L_Back_SR.sprite = null; Eye_L_Front_SR.sprite = null; break;
+            case "Hair": case "Helmet": Hair_Helmet_SR.sprite = null; break;
+            case "Mustache": Mustache_SR.sprite = null; break;
+            case "Cloth": Cloth_Body_SR.sprite = null; Cloth_R_SR.sprite = null; Cloth_L_SR.sprite = null; break;
+            case "Pants": Pants_R_SR.sprite = null; Pants_L_SR.sprite = null; break;
+            case "Armor": Armor_Body_SR.sprite = null; Armor_R_SR.sprite = null; Armor_L_SR.sprite = null; break;
+            case "Back": Back_SR.sprite = null; break;
+            case "Weapon_R": Weapon_R_SR.sprite = null; Shield_R_SR.sprite = null; break;
+            case "Weapon_L": Weapon_L_SR.sprite = null; Shield_L_SR.sprite = null; break;
         }
     }
 
@@ -157,6 +215,8 @@ public class Character_Script : MonoBehaviour
                 }
             }
         }
+
+        
     }
 
     private void Change_Hair_Helmet_Sprite(Object[] objects, WearItemInfo item)
@@ -307,6 +367,7 @@ public class Character_Script : MonoBehaviour
 
     private void Change_Weapon_R_Sprite(Object[] objects, WearItemInfo item)
     {
+        
         foreach (var child in objects)
         {
             if (child is Sprite)
@@ -365,6 +426,98 @@ public class Character_Script : MonoBehaviour
             }
 
         }
+    }
+
+    public List<WearSkinInfo> Get_WearSkin_Info()
+    {
+
+        List<WearSkinInfo> wearSkinInfo_List = new List<WearSkinInfo>();
+
+        if(Body_SR.sprite != null)
+        {
+            WearSkinInfo bodySkinInfo = new WearSkinInfo("Body", Body_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Body_SR.color)) ;
+            wearSkinInfo_List.Add(bodySkinInfo);
+        }
+
+        if (Eye_L_Front_SR.sprite != null)
+        {
+            WearSkinInfo eyesSkinInfo = new WearSkinInfo("Eyes", Eye_L_Front_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Eye_L_Front_SR.color));
+            wearSkinInfo_List.Add(eyesSkinInfo);
+        }
+
+        if (Hair_Helmet_SR.sprite != null)
+        {
+            WearSkinInfo hairHelmetSkinInfo = new WearSkinInfo("Hair_Helmet", Hair_Helmet_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Hair_Helmet_SR.color));
+            wearSkinInfo_List.Add(hairHelmetSkinInfo);
+        }
+
+        if (Mustache_SR.sprite != null)
+        {
+            WearSkinInfo mustacheSkinInfo = new WearSkinInfo("Mustache", Mustache_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Mustache_SR.color));
+            wearSkinInfo_List.Add(mustacheSkinInfo);
+        }
+
+        if (Cloth_Body_SR.sprite != null)
+        {
+            WearSkinInfo clothSkinInfo = new WearSkinInfo("Cloth", Cloth_Body_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Cloth_Body_SR.color));
+            wearSkinInfo_List.Add(clothSkinInfo);
+        }
+
+        if (Pants_R_SR.sprite != null)
+        {
+            WearSkinInfo pantsSkinInfo = new WearSkinInfo("Pants", Pants_R_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Pants_R_SR.color));
+            wearSkinInfo_List.Add(pantsSkinInfo);
+        }
+
+        if (Armor_Body_SR.sprite != null)
+        {
+            WearSkinInfo armorSkinInfo = new WearSkinInfo("Armor", Armor_Body_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Armor_Body_SR.color));
+            wearSkinInfo_List.Add(armorSkinInfo);
+        }
+
+        if (Back_SR.sprite != null)
+        {
+            WearSkinInfo backSkinInfo = new WearSkinInfo("Back", Back_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Back_SR.color));
+            wearSkinInfo_List.Add(backSkinInfo);
+        }
+
+        if (Weapon_R_SR.sprite != null)
+        {
+            WearSkinInfo weapon_R_SkinInfo = new WearSkinInfo("Weapon_R", Weapon_R_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Weapon_R_SR.color));
+            wearSkinInfo_List.Add(weapon_R_SkinInfo);
+        }
+
+        if (Weapon_L_SR.sprite != null)
+        {
+            WearSkinInfo weapon_L_SkinInfo = new WearSkinInfo("Weapon_L", Weapon_L_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Weapon_L_SR.color));
+            wearSkinInfo_List.Add(weapon_L_SkinInfo);
+        }
+
+        if (Shield_R_SR.sprite != null)
+        {
+            WearSkinInfo shield_R_SkinInfo = new WearSkinInfo("Weapon_R", Shield_R_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Shield_R_SR.color));
+            wearSkinInfo_List.Add(shield_R_SkinInfo);
+        }
+
+        if (Shield_L_SR.sprite != null)
+        {
+            WearSkinInfo shield_L_SkinInfo = new WearSkinInfo("Weapon_L", Shield_L_SR.sprite.texture.name,
+                ColorUtility.ToHtmlStringRGBA(Shield_L_SR.color));
+            wearSkinInfo_List.Add(shield_L_SkinInfo);
+        }
+
+        return wearSkinInfo_List;
     }
 
     public Dictionary<string, WearItemInfo> Get_WearItem_Info()
@@ -491,6 +644,69 @@ public class Character_Script : MonoBehaviour
         return wear_dic;
     }
 
+    public void Wear_Skin(string unit_name, List<WearSkinInfo> skin_list)
+    {
+        Reset_Sprites();
+        this.unit_name = unit_name;
+        this.skin_list = skin_list;
+
+        foreach (var child in skin_list)
+        {
+            if(child.part == "Hair_Helmet")
+            {
+                if(ResourceMgr.Instance.Get_Items("Hair").ContainsKey(child.name))
+                {
+                    child.part = "Hair";
+                }
+                else if(ResourceMgr.Instance.Get_Items("Helmet").ContainsKey(child.name))
+                {
+                    child.part = "Helmet";
+                }
+            }
+
+
+            if(ResourceMgr.Instance.Get_Items(child.part) == null)
+            {
+                Debug.Log("nullllll");
+                return;
+            }
+            
+
+            WearItemInfo wearItemInfo = ResourceMgr.Instance.Get_Items(child.part)[child.name].itemInfo;
+            string part = child.part;
+            if (child.part == "Weapon_R" || child.part == "Weapon_L")
+                part = "Weapon";
+            Object[] objects = Resources.LoadAll<Object>("Sprites/" + part + "/" + child.name);
+            Color color;
+            ColorUtility.TryParseHtmlString("#" + child.color, out color);
+            switch (child.part)
+            {
+                case "Body": Change_Body_Sprite(objects);  break;
+                case "Eyes": Change_Eyes_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Eyes, color); break;
+                case "Hair": case "Helmet": Change_Hair_Helmet_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Hair, color); break;
+                case "Mustache": Change_Mustache_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Mustache, color); break;
+                case "Cloth": Change_Cloth_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Cloth, color); break;
+                case "Pants": Change_Pants_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Pants, color); break;
+                case "Armor": Change_Armor_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Armor, color); break;
+                case "Back": Change_Back_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Back, color); break;
+                case "Weapon_R": Change_Weapon_R_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Weapon_R, color); break;
+                case "Weapon_L": Change_Weapon_L_Sprite(objects, wearItemInfo); Change_Item_Color(ITEM_TYPE.Weapon_L, color); break;
+            }
+        }
+    }
+
+    public void Change_ShowWindow_Character()
+    {
+        
+        EditorMgr.Instance.Change_Unit_Skins(skin_list, unit_name);
+    }
+
+    public void Delete()
+    {
+        EditorMgr.Instance.Delete_Unit(unit_name);
+        
+    }
+
     public void Reset_Sprites()
     {
 
@@ -516,6 +732,7 @@ public class Character_Script : MonoBehaviour
         Shield_L_SR.sprite = null;
 
     }
+
 
     
 }

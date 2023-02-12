@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public enum ITEM_TYPE
@@ -32,6 +33,8 @@ public class EditorMgr : MonoBehaviour
 
     private static EditorMgr m_Instance;
     public GameObject Unit_ShowWindow;
+    public UnitListMgr unitListMgr;
+    JsonUtil jsonUtil;
 
     public static EditorMgr Instance
     {
@@ -45,6 +48,8 @@ public class EditorMgr : MonoBehaviour
         }
     }
 
+
+
     private void Awake()
     {
         if(m_Instance == null)
@@ -55,6 +60,8 @@ public class EditorMgr : MonoBehaviour
         {
             Destroy(this);
         }
+
+        jsonUtil = new JsonUtil();
     }
 
 
@@ -64,5 +71,57 @@ public class EditorMgr : MonoBehaviour
 
         
         Unit_ShowWindow.GetComponent<Character_Script>().Change_parts(item_type, parts_str[(int)item_type], itemInfo);
+    }
+
+    public void Change_Unit_Skins(List<WearSkinInfo> skin_list, string unit_name)
+    {
+        Unit_ShowWindow.GetComponent<Character_Script>().Wear_Skin(unit_name, skin_list);
+    }
+
+    public void Change_Item_Color(Color color, ITEM_TYPE item_type)
+    {
+        Unit_ShowWindow.GetComponent<Character_Script>().Change_Item_Color(item_type, color);
+    }
+
+    
+
+    public void Save_Unit_Skin()
+    {
+
+        string filepath = Path.Combine(Application.dataPath + "/UnitSkinJson");
+        DirectoryInfo directoryInfo = new DirectoryInfo(filepath);
+
+        int index = directoryInfo.GetFiles("*.json").Length + 1;
+
+        string path = Path.Combine(Application.dataPath + "/UnitSkinJson/", "unitskininfo_"+ index +".json");
+
+        while(File.Exists(path))
+        {
+            index++;
+            path = Path.Combine(Application.dataPath + "/UnitSkinJson/", "unitskininfo_" + index + ".json");
+        }
+        jsonUtil.Save_Data(path, Unit_ShowWindow.GetComponent<Character_Script>().Get_WearSkin_Info());
+
+        unitListMgr.Update_List();
+
+    }
+
+    public void Delete_Unit(string unit_name)
+    {
+        unitListMgr.Delete(unit_name);
+        string path = Path.Combine(Application.dataPath + "/UnitSkinJson/", unit_name);
+        if(File.Exists(path))
+        {
+            File.Delete(path);
+            File.Delete(path + ".meta");
+        }
+            
+    }
+
+    IEnumerator Update_Unit_List_Cor()
+    {
+        yield return new WaitForSecondsRealtime(0.3f);
+
+
     }
 }

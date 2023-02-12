@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Threading.Tasks;
 using UnityEngine;
-
+using UnityEngine.AddressableAssets;
+using UnityEngine.AddressableAssets.ResourceLocators;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.ResourceManagement.ResourceLocations;
 
 public class ResourceMgr : MonoBehaviour
 {
@@ -37,24 +42,54 @@ public class ResourceMgr : MonoBehaviour
         jsonUtil = new JsonUtil();
     }
 
+
+    public List<WearSkinInfo> m_WearSkinInfo { get; set; }
+
+    private void Start()
+    {
+        //string path = Path.Combine(Application.dataPath + "/UnitSkinJson");
+        //DirectoryInfo directoryInfo = new DirectoryInfo(path);
+        
+        //foreach(FileInfo fileInfo in directoryInfo.GetFiles("*.json"))
+        //{
+            
+        //}
+
+        //m_WearSkinInfo = jsonUtil.Load_Data<List<WearSkinInfo>>(path);
+    }
+
+
+
     JsonUtil jsonUtil;
 
     public GameObject Item_Prefab;
 
 
-    private Item[] m_EyesItems;
-    private Item[] m_BodyItems;
-    private Item[] m_HairItems;
-    private Item[] m_MustacheItems;
-    private Item[] m_HelmetItems;
-    private Item[] m_ClothItems;
-    private Item[] m_PantsItems;
-    private Item[] m_ArmorItems;
-    private Item[] m_BackItems;
-    private Item[] m_WeaponRItems;
-    private Item[] m_WeaponLItems;
+    //private Item[] m_EyesItems;
+    //private Item[] m_BodyItems;
+    //private Item[] m_HairItems;
+    //private Item[] m_MustacheItems;
+    //private Item[] m_HelmetItems;
+    //private Item[] m_ClothItems;
+    //private Item[] m_PantsItems;
+    //private Item[] m_ArmorItems;
+    //private Item[] m_BackItems;
+    //private Item[] m_WeaponRItems;
+    //private Item[] m_WeaponLItems;
 
-    public Item[] Get_Items(string part)
+    public Dictionary<string, Item> m_EyesItems = null;
+    public Dictionary<string, Item> m_BodyItems = null;
+    public Dictionary<string, Item> m_HairItems = null;
+    public Dictionary<string, Item> m_MustacheItems = null;
+    public Dictionary<string, Item> m_HelmetItems = null;
+    public Dictionary<string, Item> m_ClothItems = null;
+    public Dictionary<string, Item> m_PantsItems = null;
+    public Dictionary<string, Item> m_ArmorItems = null;
+    public Dictionary<string, Item> m_BackItems = null;
+    public Dictionary<string, Item> m_WeaponRItems = null;
+    public Dictionary<string, Item> m_WeaponLItems = null;
+
+    public Dictionary<string, Item> Get_Items(string part)
     {
         switch (part)
         {
@@ -74,10 +109,11 @@ public class ResourceMgr : MonoBehaviour
         }
     }
 
+    
 
-    private Item[] Create_Items(string part)
+    private Dictionary<string, Item> Create_Items(string part)
     {
-        Item[] items;
+        Dictionary<string, Item> items = new Dictionary<string, Item>();
 
         string o_parts = part;
 
@@ -93,28 +129,41 @@ public class ResourceMgr : MonoBehaviour
             part = "Hair_Helmet";
 
         //load json
-        List<WearItemInfo> iteminfo_list = jsonUtil.Load_Data < List < WearItemInfo >> (part);
-        if (iteminfo_list == null)
-            return null;
-        Dictionary<string, WearItemInfo> items_dic = new Dictionary<string, WearItemInfo>();
-        foreach(var child in iteminfo_list)
-        {
-            items_dic[child.texture_name] = child;
-        }
+        string path = Path.Combine(Application.dataPath + "/ItemJson/", part + ".json");
 
+        List<WearItemInfo> iteminfo_list = jsonUtil.Load_Data < List < WearItemInfo >> (path);
+        Dictionary<string, WearItemInfo> items_dic = new Dictionary<string, WearItemInfo>();
+
+        if (iteminfo_list == null)
+        {
+            if (part != "Body")
+            {
+                return null;
+            }
+            
+        }
+        else
+        {
+            foreach (var child in iteminfo_list)
+            {
+                items_dic[child.texture_name] = child;
+            }
+        }
+            
+        
         //items = new Item[sprites.Length];
-        items = new Item[textures.Length];
+        //items = new Item[textures.Length];
 
         for (int i = 0; i < textures.Length; i++)
         {
             GameObject obj = Instantiate(Item_Prefab);
-            items[i] = obj.GetComponent<Item>();
-            items[i].Init(textures[i], items_dic.ContainsKey(textures[i].name)? items_dic[textures[i].name]:null,
+            items[textures[i].name] = obj.GetComponent<Item>();
+            items[textures[i].name].Init(textures[i], items_dic.ContainsKey(textures[i].name)? items_dic[textures[i].name]:null,
                 item_type);
         }
 
 
-        if (items.Length == 0)
+        if (items.Count == 0)
             return null;
 
         return items;

@@ -11,14 +11,15 @@ public class JsonUtil
 
     }
 
-    public T Load_Data<T>(string parts_name)
+    public T Load_Data<T>(string path)
     {
-        string path = Path.Combine(Application.dataPath + "/ItemJson/", parts_name + ".json");
+        
         T loadData;
         
         if (!File.Exists(path))
         {
-            Save_Data(parts_name, default(T));
+            
+            Save_Data(path, default(T));
             return default(T);
         }
         string json = File.ReadAllText(path);
@@ -27,9 +28,9 @@ public class JsonUtil
    
     }
 
-    public void Save_Data<T>(string parts_name, T data)
+    public void Save_Data<T>(string path, T data)
     {
-        string path = Path.Combine(Application.dataPath + "/ItemJson/", parts_name + ".json");
+        //string path = Path.Combine(Application.dataPath + "/ItemJson/", parts_name + ".json");
         if (data == null)
         {
             Debug.Log("save data null");
@@ -39,5 +40,6 @@ public class JsonUtil
         string json = JsonConvert.SerializeObject(data);
         File.WriteAllText(path, json);
     }
+
 
 }

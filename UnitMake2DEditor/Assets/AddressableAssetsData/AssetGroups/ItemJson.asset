@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ItemJson
+  m_EditorClassIdentifier: 
+  m_GroupName: ItemJson
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e5980d30c80aa439d96f0639a9786d8b
+  m_SerializeEntries:
+  - m_GUID: 57cd56fa3e6e144949526cf43ff69629
+    m_Address: Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: 3dfffe9c8df5141a4901796dd65b0e64
+    m_Address: Back
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: a6a09fb9e7ed840768b3f856c03b1bdd
+    m_Address: Cloth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: c72bb6cee5e634184b7b76490c222d48
+    m_Address: Eyes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: 086ae1aa3cf6d49cd93c3ebccd6747fd
+    m_Address: Hair_Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: 86c7f155bafdc420190063aa14305f4c
+    m_Address: Mustache
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: e5d50f10d05344a45abbd44a31ea720f
+    m_Address: Pants
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: 6bd83edf8e3cb492f9b72d040f997738
+    m_Address: Weapon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: cdb1c2584fcf54fd8a5e44722ff00979
+    m_Address: Weapon_L
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  - m_GUID: 5e3012505829f47f6becef49c83569a5
+    m_Address: Weapon_R
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Json
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 582dd5fd2b68843b98d235731010af15, type: 2}
+    - {fileID: 11400000, guid: c6f04fbdcde154e3aad5ffc15f0508b4, type: 2}
