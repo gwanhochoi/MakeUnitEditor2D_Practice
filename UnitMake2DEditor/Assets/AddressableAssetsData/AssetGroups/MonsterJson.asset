@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MonsterJson
+  m_EditorClassIdentifier: 
+  m_GroupName: MonsterJson
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 044dc72de3b2d49edb168d940f08c59e
+  m_SerializeEntries:
+  - m_GUID: a136ae920c22242d5b87ff3d1382a720
+    m_Address: monster_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSkinJson
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6049ce474b10943d582c800971b9c11a, type: 2}
+    - {fileID: 11400000, guid: c6bdd63433a1147869297aa4e7b77afc, type: 2}

@@ -47,9 +47,20 @@ public class UnitListMgr : MonoBehaviour
         {
             //Debug.Log(child.FullName);
             List<WearSkinInfo> skin_list = jsonUtil.Load_Data<List<WearSkinInfo>>(child.FullName);
-            //Debug.Log(child.Name);
+            Debug.Log(child.Name);
             Create_PreviewCharacterButton(child.Name, skin_list);
 
+        }
+    }
+
+    public void Update_Item(string name)
+    {
+        string filepath = Path.Combine(Application.dataPath + "/UnitSkinJson/" + name);
+        
+        List<WearSkinInfo> skin_list = jsonUtil.Load_Data<List<WearSkinInfo>>(filepath);
+        if(PreviewCharacter_dic.ContainsKey(name))
+        {
+            PreviewCharacter_dic[name].GetComponentInChildren<Character_Script>().Wear_Skin(name, skin_list);
         }
     }
 

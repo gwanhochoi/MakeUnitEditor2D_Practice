@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Armor_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Armor_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c7d57338526f24c3eba7d14506554e5c
+  m_SerializeEntries:
+  - m_GUID: c2bcce7bb94fb4215a68517c443ed468
+    m_Address: Armor_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 508f98d02ff644775a3aa70fc55664e6
+    m_Address: Armor_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: fb9857b6b43794eec971517883aebd5e
+    m_Address: Armor_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 7e841058e005f42239424e13697aed2f
+    m_Address: Armor_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 0634375af70644ef78dd0de75418cea7
+    m_Address: Armor_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 831fc3798b7de4892b70b8686d56d706
+    m_Address: Armor_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: c26419aba03b34982bddfa0d99035def
+    m_Address: Armor_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: d9a2685ccc1294cb79dcda306e47405a
+    m_Address: Armor_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 65c1bac601ffc41b5a0defe363efc2d6
+    m_Address: Armor_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: a52bbe728c7344d6f87b9fff09eb4358
+    m_Address: Armor_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 4a9d9f9acee8d44fbbe6930b379a1c65
+    m_Address: Armor_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: b5a4b0e75330a4ebb9228d594182d747
+    m_Address: Armor_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 7ad31b9c0788c44ce880f422e0ff4be6
+    m_Address: Armor_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 59433b3cc6b174a669a872dcedebc771
+    m_Address: Armor_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 9ba9a5859fca34705bd44ac304b58f16
+    m_Address: Armor_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 6845f5b2f8f744387809c003dad8c188
+    m_Address: Armor_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: ce82c86f11ed44865b8b2ae170faccef
+    m_Address: Armor_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: f99d455716d2b47c8a449129156198ae
+    m_Address: Elf_Armor_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: a49c52ac0970148fd9de7b5f78eddfc6
+    m_Address: Elf_Armor_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 61e158905b08347128f6c98aacc483c4
+    m_Address: Elf_Armor_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 296e27436703f464c8670cf43b9d02ac
+    m_Address: Elf_Armor_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 892bbf9aaa540410b815ba8c5ed023a9
+    m_Address: Elf_Armor_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 7d802a4b4686944d39e3662fcd52304e
+    m_Address: Elf_Armor_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 9b184a7d26c83405dbabc54d7f76341b
+    m_Address: Elf_Armor_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: ce6382f22c7174689ac21e5433b665f1
+    m_Address: Elf_Armor_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 97b73475e5fad47199e9798e8d5f1b24
+    m_Address: Elf_Armor_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 9c8772603ec3a47ae925f6e722197b1a
+    m_Address: Elf_Armor_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 2974978461e764acda60784ce5e5e5e8
+    m_Address: Elf_Armor_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 8078662fa9cdc4c85811210655b324f8
+    m_Address: Elf_Armor_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 74b8e1dfb588c4a9188a569b853469f6
+    m_Address: Elf_Armor_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 38fbc55fe218b4f3baf0eb27ed7d4d82
+    m_Address: Elf_Armor_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 4fcd02d2807954d419bdde3ca5c9b9e8
+    m_Address: Elf_Armor_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: b831ea01752f449c88fc2511b49e2815
+    m_Address: Elf_Armor_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: e4e9260a385ed46a783ce88d72e6bad0
+    m_Address: Elf_Armor_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: ffe44cd8d4ce045568dd7a833d7e517c
+    m_Address: Elf_Armor_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 6c2aa1d5210124502a24994fba4f35a6
+    m_Address: Elf_Armor_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 3177124d8dd14425a96b0b5e110fed3c
+    m_Address: New_Armor_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: ad437f2a7905b4de0a010e1472f0ea21
+    m_Address: New_Armor_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 2e361e6bd51dd48dc9063099147d1425
+    m_Address: New_Armor_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 0be2032568bfd46b59f6da168a0085bc
+    m_Address: New_Armor_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: d2619de661978461b826ff4e6a541753
+    m_Address: New_Armor_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 323b3fc78e1fc404aa7542d7cbccd40a
+    m_Address: New_Armor_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: f7be5774a48764599a03f1d1b581280c
+    m_Address: New_Armor_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 5d15caff1984047bd88a39b3725176e2
+    m_Address: New_Armor_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 4dc8df0684ecd44dea0b96eb234a565c
+    m_Address: New_Armor_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 61ea6b93cb7e84fde8e825200604a1e3
+    m_Address: New_Armor_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 7e0e8932b90014035b50f84b32a7beed
+    m_Address: New_Armor_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: d279c972c7a5348ac9195985c2e1d0ec
+    m_Address: Normal_Armor1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 86bc29d69ec59447899a5a80b8a9dc4d
+    m_Address: Orc_Armor_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 69ee9cf74be914faba1d0c8669e2c74c
+    m_Address: Orc_Armor_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: a8c82e123f6ae444b86ecb26638ecfbd
+    m_Address: Orc_Armor_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 109fde0bcc13448efa84cbfd5d6c0925
+    m_Address: Orc_Armor_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 53eb241cf081544758d32a502cdf0442
+    m_Address: Undead_Armor_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: b43157d040b9e4096b11dd397a9f199e
+    m_Address: Undead_Armor_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 92ab43502508e47259e4a809562107c9
+    m_Address: Undead_Armor_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: ecabe146c1a38449a9e194d0efebac99
+    m_Address: Undead_Armor_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: dd3b4077b1889443784b7f83220e74b8
+    m_Address: Undead_Armor_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 227e1f71ac86044f38e33da28876d2d1
+    m_Address: Undead_Armor_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  - m_GUID: 34d4a3dedefc24225b354f337606d64f
+    m_Address: Undead_Armor_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Armor_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 790d4b952757944379dc63bd41cdc666, type: 2}
+    - {fileID: 11400000, guid: cac298f816925436a8dd01f934ac74fb, type: 2}

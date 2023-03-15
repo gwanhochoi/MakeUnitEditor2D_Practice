@@ -1,0 +1,360 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Cloth_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Cloth_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3d3010541ae4d487a875eb2e6211dc65
+  m_SerializeEntries:
+  - m_GUID: 5e694c9c5379c4d0c8e6b966787a0f53
+    m_Address: Cloth_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 02a91fd1f32154e178ee91ce2315aeee
+    m_Address: Cloth_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 467f41f2077324d4c9866bd5c047137e
+    m_Address: Cloth_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 337810d1e234747518dd8c516bab5fa1
+    m_Address: Cloth_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 1856138167d56441080d7b839e4b9f91
+    m_Address: Cloth_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: d94b7c1a632ce487e88eadd0fc629f9a
+    m_Address: Cloth_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 2af52bab2649745c6ab4ba46595ed82d
+    m_Address: Cloth_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: e520144f73dda4c2b8f4625b1b9bd98e
+    m_Address: Cloth_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 77965dc4b49c4449482f40b11ed289cc
+    m_Address: Cloth_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: c935504e8f4ca4495992eb0160f2da74
+    m_Address: Cloth_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 4fd4be65d94f14d73ae2dd3af912e947
+    m_Address: Cloth_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: fb20d5365c56342ebb561ab423ddb940
+    m_Address: Cloth_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 31c6a3ce3961345eda319a1e1bf8a297
+    m_Address: Cloth_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 273482ef1ffb841c8b2a30f47e022e51
+    m_Address: Cloth_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 54a44e82809e245bc8e60a7687403796
+    m_Address: Cloth_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: c86dfb80186484eb8823dc595118cca1
+    m_Address: Cloth_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 8c0bb13f3d0c4441cb3b4c61304d3e4b
+    m_Address: Cloth_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: bf7653a512b5d47fc9a45ed351897526
+    m_Address: Cloth_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 0c3e7bc0693f74fe5965cf88e1217e98
+    m_Address: Cloth_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 0b5e5cf12f19f41d3a8dd838c1a5d005
+    m_Address: Cloth_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 582b94c7fbb9a496a83b2862873c20d7
+    m_Address: Cloth_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 52ef380486b154088ba064ca9dcb2ffe
+    m_Address: Cloth_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: e536e705046b44e318a8ca2c2b77e0dd
+    m_Address: Elf_Cloth_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 71c25efe3a4ec4ef597759595fbd5447
+    m_Address: Elf_Cloth_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: ba6f7e888fd004df2a5a69bbb16cfd66
+    m_Address: Elf_Cloth_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 7a35e6535b90f4ff2a8e1a688305dfa9
+    m_Address: Elf_Cloth_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 7cbfffa04208a499e92ecad92fda5447
+    m_Address: Elf_Cloth_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 4f973187cbf0e4ef88f7731c70fa5790
+    m_Address: Elf_Cloth_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: b43906d8c03a94812a3bfd96e8ab8146
+    m_Address: Elf_Cloth_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 2f590fe7c66a149e58fb07d853d27d72
+    m_Address: Elf_Cloth_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 80ee49e0e86794a269d6b2c871b3e5cc
+    m_Address: Elf_Cloth_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: d987e29616bdd4903b2409faed0179f7
+    m_Address: Elf_Cloth_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 8d30ab768ca664a8e841c5803da39651
+    m_Address: Elf_Cloth_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: f882b62e5994b46b191297e702ba21f3
+    m_Address: Elf_Cloth_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: ce8d9a588e2a44b6eaeb6358eb9bfb07
+    m_Address: Elf_Cloth_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: bb4c8e3af6d314e6eafbbe0ca47d0ac5
+    m_Address: Elf_Cloth_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 3eccbf8042c3f449d8526b0b76e70522
+    m_Address: Elf_Cloth_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: ff95d84083b1b4287b4edbbf0bf11922
+    m_Address: Elf_Cloth_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 02fe2777d8a22417598d2ed4ae44b16c
+    m_Address: Elf_Cloth_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 581373dded3e4495d90423eb99a93dd7
+    m_Address: Elf_Cloth_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 2693270d5e9d94fdaa598c524ea00a0d
+    m_Address: Elf_Cloth_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: e69aaca696d8440348313df0241edb2c
+    m_Address: Elf_Cloth_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 3988e41ba9c264fce876f0229afd266e
+    m_Address: New_Cloth_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: f9d8be19e87ca40c8917b30201657e69
+    m_Address: New_Cloth_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: fad86f165025648b69923319b956752c
+    m_Address: New_Cloth_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 66862600d4e59402ab0226218e6741d3
+    m_Address: New_Cloth_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 5354d79bbfc76498eb925d0a9851dd84
+    m_Address: New_Cloth_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 12e117c2f1de34c0e97331bb869feb77
+    m_Address: New_Cloth_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 3aa03cd6d48034ca790af08aca3d5bef
+    m_Address: New_Cloth_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: b041009ded7ae4694813f5e648daf72a
+    m_Address: New_Cloth_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 2ad80e73f4c3748ec84cd72dc36ad20b
+    m_Address: New_Cloth_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 26dd6d3404c5a4bc6b8e7c62dbc897c5
+    m_Address: New_Cloth_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 827b5a7164ed64653a8e94f41c26225a
+    m_Address: New_Cloth_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 4e05bcea4b1b54934aa42128152b49d1
+    m_Address: New_Cloth_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: eeb0faf237fd84da8b7402a900223b5c
+    m_Address: Normal_Cloth1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 85998e2bee4ec4c87b028096569f6fad
+    m_Address: Orc_Cloth_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 549bdeb0466b7471f8a09b68bed9a8f1
+    m_Address: Orc_Cloth_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: af208ec7a93634ad5959f6526e0884e8
+    m_Address: Orc_Cloth_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 19d9d54b40f884dbcbf8a1b165deaa38
+    m_Address: Orc_Cloth_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 1f5b7aedf2f1742e4b2cce8568942368
+    m_Address: Orc_Cloth_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 91a84a4ddb74a408382a59d46eed4958
+    m_Address: Undead_Cloth_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 323da39d3204245c19c36aa84ca5aecf
+    m_Address: Undead_Cloth_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: c7e357ea513b64a62b92fafe7635ef4d
+    m_Address: Undead_Cloth_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: bd1dbcc24043c4242919cf78b8df937b
+    m_Address: Undead_Cloth_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 1fbe8c64d0ee9458597d4d77da7c4454
+    m_Address: Undead_Cloth_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: df7ddbb37f3414003b9204a0a2169883
+    m_Address: Undead_Cloth_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  - m_GUID: 90122dc2ed1434a4a8293f17978d78ca
+    m_Address: Undead_Cloth_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cloth_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8eb2eacc53b9e41e59115c1faeb2ef97, type: 2}
+    - {fileID: 11400000, guid: af2c0f65a0b684d97912ff0fb0169fa9, type: 2}

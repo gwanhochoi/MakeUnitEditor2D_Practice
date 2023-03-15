@@ -44,8 +44,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b8f6161026e4421588a67a15a622d7c, type: 2}
   - {fileID: 11400000, guid: ec3028186a90c4ff78cf52193f53f007, type: 2}
   - {fileID: 11400000, guid: 9ad4b8f2b49154d6fa880de7922ac45f, type: 2}
-  - {fileID: 11400000, guid: c70a43680b6cc4cfbb4107591695ca31, type: 2}
-  - {fileID: 11400000, guid: 306d41b885f33476b8dbf58e8eabb957, type: 2}
+  - {fileID: 11400000, guid: 8aafe8301870e447c9f32cb24c04166e, type: 2}
+  - {fileID: 11400000, guid: f5a073ca144c6456083eb112c3d26835, type: 2}
+  - {fileID: 11400000, guid: 6d5ae9fe6b9984154b4c70e823bc213c, type: 2}
+  - {fileID: 11400000, guid: b2bc3522ba8144e8e99c89b61ee1e96b, type: 2}
+  - {fileID: 11400000, guid: a690d083af08a40889399f59e46543a9, type: 2}
+  - {fileID: 11400000, guid: ecc988671c7c44cdbabeb3869aba790a, type: 2}
+  - {fileID: 11400000, guid: 140a78eddde634b4b8b360a0413afc6c, type: 2}
+  - {fileID: 11400000, guid: 241843e0634d8402ebf18e10eedf7dac, type: 2}
+  - {fileID: 11400000, guid: 6eba85b6590b34de892140d7ab0f1740, type: 2}
+  - {fileID: 11400000, guid: c1c66486182fe4fe1a77c63deff51f24, type: 2}
+  - {fileID: 11400000, guid: ff8a8b28e1a9448c5b792293c8a38a72, type: 2}
+  - {fileID: 11400000, guid: 0fe4436d7060d46f38f50e1def9dff8f, type: 2}
+  - {fileID: 11400000, guid: 9ff2f5f7b8f83415cb7764c94899e21b, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -113,6 +124,9 @@ MonoBehaviour:
     - Body_Texture
     - Back_Texture
     - Armor_Texture
+    - UnitSkinJson
+    - MonsterSkinJson
+    - UnitStatInfoJson
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4ea8da35087f6428ca19e175e6ee9fbb, type: 2}

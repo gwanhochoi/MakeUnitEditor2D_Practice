@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Pants_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Pants_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6ef68250708d74f15b5da83ee7f95676
+  m_SerializeEntries:
+  - m_GUID: 97b8da838a048451ca3c5aebecd8de04
+    m_Address: Elf_Pant_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ce0422538a25543d4b39213a212bea6e
+    m_Address: Elf_Pant_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ea8c47b3b630449ffb0d1dd901888f46
+    m_Address: Elf_Pant_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 0b3e0e4957fd7481c95d79704c69f205
+    m_Address: Elf_Pant_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 2e15c77f31b0e42808a09b695c203021
+    m_Address: Elf_Pant_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 92afb91f856e24ae59321c224ae37d8e
+    m_Address: Elf_Pant_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 3400cfb04d5b14dca8018168402bb26d
+    m_Address: Elf_Pant_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: aaeed6f0db8854a27a0d4d95c0170125
+    m_Address: Elf_Pant_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 268900caf600a41f69253ba4502fb1ab
+    m_Address: Elf_Pant_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 6e928555722294295883a75ee8aad45c
+    m_Address: Elf_Pant_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ee31498dadd8b4157ba5e03fc6d55d4a
+    m_Address: Elf_Pant_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 7b9b08f73cd4c4aa1a719d3b3f938adb
+    m_Address: Elf_Pant_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 7c4bf9ca0a99f438080952b83ca490b1
+    m_Address: Elf_Pant_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: d0b4cff29dd2d48f3866b2c0046a31a4
+    m_Address: Elf_Pant_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: e2c28c393b98e48f3a561b1fe4dee9d7
+    m_Address: Elf_Pant_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 6d82570cab1ad4c46893daee26e2446c
+    m_Address: Elf_Pant_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 678940fc1f8f34c9bb31b0064787a8b8
+    m_Address: Elf_Pant_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 48e4cbba1fa2e4eb293845d83be9df6f
+    m_Address: Elf_Pant_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 72d3ed9643fa443a6906dcf518da86a1
+    m_Address: Elf_Pant_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 4db1f89535b394a9d9b9fe3e1e36d5cd
+    m_Address: Elf_Pant_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 4fefc621eae8e4a2ab0d6e92cd01ae29
+    m_Address: Foot_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 2763d622bc8d54bf6be7ef11bc15f6c7
+    m_Address: Foot_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: aa661e7d1f6c142559a235823ff63523
+    m_Address: Foot_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: bcb48b86c8b7b4451a5638b7ed8af0fe
+    m_Address: Foot_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 2d134c95eaf7f474daa0733078d1760c
+    m_Address: New_Pant_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 1646411d0c9fe44a19fcbfbeb4f29738
+    m_Address: New_Pant_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 41507002a85034c4bb6665dfbabd70d2
+    m_Address: New_Pant_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 66edf4ca3874e4f29bf25905c9601d04
+    m_Address: New_Pant_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: b4dd6272ac38143638da4f9e16c3ed14
+    m_Address: New_Pant_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: aee54cce6dd634e129a37b19062eaf72
+    m_Address: New_Pant_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ba9c62c1248cd478892ace912d2610db
+    m_Address: New_Pant_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: cf0f8b786470e41a298e78b2c0f22103
+    m_Address: New_Pant_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: e51329be9b34444ab9153116a45e2591
+    m_Address: New_Pant_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 6277bd7243c5c410a9c0cedec53522fd
+    m_Address: New_Pant_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: f20933f6f774d44268ea4242627cd8cc
+    m_Address: New_Pant_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 2de5932a3655e44bd9f3540adbfa9c04
+    m_Address: New_Pant_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: b341fd116f7314b22afe7f6568f0ac43
+    m_Address: Orc_Pant_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ed716fed833574c02a65dbfcdc646b46
+    m_Address: Orc_Pant_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 8039788d470d7470fbf625067d47bf6b
+    m_Address: Orc_Pant_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: ae60ae8f7deb344c0bdc201405d909d1
+    m_Address: Orc_Pant_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 459b2eb6d71e346be906c6b5377019c0
+    m_Address: Pant_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 3e5ab40ca3d1d4450957b9d7c93fe776
+    m_Address: Pant_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 227cda394e52b4c52a96938d15c2f88c
+    m_Address: Pant_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 00cac9150c312422bbac8c71824257cd
+    m_Address: Pant_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 5bb6680f6ca6348b9bb733b4f38f4427
+    m_Address: Pant_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 01e4b79c411724bda93513e6e5b3f6ef
+    m_Address: Pant_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: de6655ba2bf584791ae84194758b97f9
+    m_Address: Pant_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 492d35280ea41430e88c944ea0a24212
+    m_Address: Pant_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 9358794462c714a03accb382136348ff
+    m_Address: Pant_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: d2edf6c9491fb4be9a5c613eee794bc1
+    m_Address: Undead_Pant_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: af3db6577687141768cbad4d591dc6b0
+    m_Address: Undead_Pant_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: cac5a872d2b5d4b95995a2163282fcad
+    m_Address: Undead_Pant_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 0dfcc03d713234e6e9bb830d4dcbf792
+    m_Address: Undead_Pant_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  - m_GUID: 3effe9c7ef0df4b5d8f262d2bfe264cf
+    m_Address: Undead_Pant_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Pants_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6648fc379c65643d688b6202d48eb76e, type: 2}
+    - {fileID: 11400000, guid: de3a92ecfaec041c69b2b9160dd22a55, type: 2}

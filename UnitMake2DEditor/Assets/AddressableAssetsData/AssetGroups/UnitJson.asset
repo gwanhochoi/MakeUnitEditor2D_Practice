@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UnitJson
+  m_EditorClassIdentifier: 
+  m_GroupName: UnitJson
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4f231eb3a19924d7f9c05cb2d7f59c6d
+  m_SerializeEntries:
+  - m_GUID: c1798f31807ee4981ab9406ed7fb1942
+    m_Address: ap_2_rare
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 8021f051d89434cbbaecf13b2ad2f7ba
+    m_Address: ap_8_myth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 18ebe477ea9a948ffa0bc8a92c1e1e97
+    m_Address: half_7_special
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 999203078f8f04ba18e3f22add5b7e46
+    m_Address: half_8_myth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 07e6acfd36d1040eaaa24a79d7e605d3
+    m_Address: ad_1_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: eea0cf7c5c4a044ee9f7292660fd47b2
+    m_Address: ap_6_legend
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 3f88e706b1066483e9b47a162b412da9
+    m_Address: ad_8_myth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: f33fb49dfba6144bfa17a88ef9528d97
+    m_Address: ap_4_relic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: ea1969f5ab7c94e61986f5c688ca615a
+    m_Address: half_4_relic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 5161c4e3453154cc69574fe4e64e203e
+    m_Address: half_1_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 162c9d53bd21543659ca8ff7eb6ff104
+    m_Address: ad_7_special
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: a0e18ff5063314e6ea1c52ad167f9dc4
+    m_Address: ad_3_unique
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 8227859ec46b44e469cc0cc206505ea0
+    m_Address: half_6_legend
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: b1d93841c6aa744f7a2dd4a33f1ede79
+    m_Address: ap_7_special
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 7e9245adc55cd40549c3924a02c50d0c
+    m_Address: ad_6_legend
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: c7427c5b34f4844469e450ebedb8e0b3
+    m_Address: half_5_ancient
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 20eebea6e3a504685aad040e35dbc529
+    m_Address: ap_9_origin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: afb7747f0ac84417ea6fe244c57b35dc
+    m_Address: ap_3_unique
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 175773e5b105c4a0d967b8ab3d855b2a
+    m_Address: ap_1_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 9c1ff2596fc464a4a87af01e226d30ae
+    m_Address: ad_5_ancient
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 96d715e7457da4bb9be88c801b1be01e
+    m_Address: half_3_unique
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 70c3f2c6475054c0da9e2270b344a4b2
+    m_Address: ap_5_ancient
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: ca67e74036efc446fbf35c2f7af12c91
+    m_Address: half_9_origin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: bf5918669c4aa47929f7dbcd0cf23bbb
+    m_Address: ad_9_origin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 4c3e0e76a7354436eb38f428ce57c548
+    m_Address: ad_4_relic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: 34eb6cc8fac414e5b92a216029641992
+    m_Address: ad_2_rare
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  - m_GUID: fad9637ecc5754b95aa0680a0d4b42f2
+    m_Address: half_2_rare
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UnitSkinJson
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 50daa672bbab44dc6aec22117d51e9ea, type: 2}
+    - {fileID: 11400000, guid: 106a16d29ffda4636b9521c12c5468c0, type: 2}

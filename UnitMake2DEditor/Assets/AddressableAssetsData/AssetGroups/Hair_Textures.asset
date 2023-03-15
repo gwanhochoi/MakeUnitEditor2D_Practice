@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Hair_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Hair_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cbac3459b629848cfa4f47a51cb524ae
+  m_SerializeEntries:
+  - m_GUID: 13042addbccbd43c081f896710b85e79
+    m_Address: Elf_Hair_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 9a162c91dc62140fab55242af8f7d612
+    m_Address: Elf_Hair_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 457f47003c83844afa2aca0b2a634364
+    m_Address: Elf_Hair_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 1e68f252082a54e08869fc6ec1ff9e7f
+    m_Address: Elf_Hair_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 03cc3ecea65444766939e31812b49462
+    m_Address: Elf_Hair_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 93fbe38bf266845b7b3b644e0d5d75e9
+    m_Address: Elf_Hair_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 9ffd94923cd734d09afbacbff5f31cd7
+    m_Address: Elf_Hair_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: bb6d6de20ae424ee797055afcab19e82
+    m_Address: Hair_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: afae03d07d48d48c189fb6694ecaebde
+    m_Address: Hair_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 460dcfd8c082a45a38f8e42a9d4d6da2
+    m_Address: Hair_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 4e49d7f65340f41e394422be4ba48a3e
+    m_Address: Hair_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 2c6d5bfa59d9545128fa742a924d25c0
+    m_Address: Hair_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 4ddcb2ad51e0b4c3295688586b02acaf
+    m_Address: Hair_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: f8b03eabb875a4295858ff3d0d2d5654
+    m_Address: Hair_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: ab6cba30e162b44fdbac8efa80e3b283
+    m_Address: Hair_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: fa0817a7381a54f0ab8e94b92a2b674f
+    m_Address: Hair_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 2b496540249894bfcbde736bba73032f
+    m_Address: Hair_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: bb6d786c39bf14480aaaccd24622d172
+    m_Address: Hair_Arhcer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 60b21ee39be5a49f981ab701c727a046
+    m_Address: Hair_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 89d122d8a48534bc08b5d1feae764ecd
+    m_Address: Hair_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 4d72317fa867e4905884a531663001c7
+    m_Address: Hair_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: cdce736bfb1bf4a02bbea3e9788e64cb
+    m_Address: Hair_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: b507a9ce552164fe692d7f93cb182511
+    m_Address: Hair_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: a8d2c41c3be154534a1f0c7f9b5d3b8a
+    m_Address: Hair_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: dfffbf632398a4a3da44542fe24d5d86
+    m_Address: Hair_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 7d6ec009a49394391883607dccda4106
+    m_Address: Hair_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: e942ba89ee57244919cadfd00287e4d2
+    m_Address: New_Hair_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 5685e4168b60e46b98764fe098053d97
+    m_Address: New_Hair_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: e2520539e901c4d93910016ba3e7dcad
+    m_Address: New_Hair_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 7d6069f9d44b9471e87ab1b438bdca13
+    m_Address: New_Hair_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 1fdd692a9f3db49e58dba5cf33cfe2de
+    m_Address: New_Hair_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 1def63f4e8c57487780f6b63de9520db
+    m_Address: New_Hair_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 2bb6eef29733548d0b48f6713d9fbf54
+    m_Address: New_Hair_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: a67301495fe894241a1f13fd342146d0
+    m_Address: New_Hair_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: d9444d21aebee43d8ad335dd9734a67e
+    m_Address: New_Hair_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: b40dfd765717f43978ca342a737ede38
+    m_Address: New_Hair_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 53411f153c3f34dd18ecbbc761df52e8
+    m_Address: New_Hair_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 55de5be678f2b4285bb8ea1e76eb4cc5
+    m_Address: New_Hair_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: bbce99dffc6d44c65bf7d1f1c452dbfb
+    m_Address: New_Hair_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 5193b0ff767c84f79bffc33a16560c24
+    m_Address: New_Hair_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 77b226bc1f4394dd696cf6f842ba8c90
+    m_Address: New_Hair_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 69b2daa6ec3cb40b882eb7528ed24ea0
+    m_Address: New_Hair_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 69ce59b9b002046dcb80691b55746697
+    m_Address: New_Hair_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: a1c61b97bb4d648ceadff61d764163ca
+    m_Address: New_Hair_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 1b01aa5eac7e54437a8f7159bc951227
+    m_Address: New_Hair_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: edcbd1f622b7b42f0937a7b29cacf053
+    m_Address: New_Hair_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 6534fbc101f4a41ac9e44bc0a5fdce47
+    m_Address: Normal_Hair1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 4fd8aad8bcd7f43ab8e14f844d9f6d15
+    m_Address: Normal_Hair2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: f3b66a8c8a2af4f10acf22e76357771b
+    m_Address: Normal_Hair3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: be1dff265640143e3a0d5d4cbe809497
+    m_Address: Normal_Hair4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 8c764057628a34abcae222cc967740fd
+    m_Address: Normal_Hair5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: cc2935dc9ee1e44b2b8601d566c6dd36
+    m_Address: Normal_Hair6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 796f31872e7fa4d24977ca3c82292c2e
+    m_Address: Normal_Hair7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: f92d947e3311342609d4fcbaa553f54e
+    m_Address: Normal_Hair8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 080cacc8862324949a0b8da218f5865d
+    m_Address: Normal_Hair9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 20a29f3b97757472d992ec719b18a55c
+    m_Address: Normal_Hair10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: ec9768144a2a1408487b1f0c4fcc5a50
+    m_Address: Normal_Hair11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: d80e0b44dd044491d920068f2645e66a
+    m_Address: Normal_Hair12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: bdb55101ff47b470495cad626da9d0d7
+    m_Address: Normal_Hair13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 402a95650aea2481ca6d58a0dc3ce7a5
+    m_Address: Orc_Hair_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 4fd36454b6b5947c2860979654796422
+    m_Address: Orc_Hair_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  - m_GUID: 7e141f1dc9c004b8fbe8d31ac5c04fed
+    m_Address: Orc_Hair_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hair_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc98b4992fa8a49a1ab7f17e06edb7c3, type: 2}
+    - {fileID: 11400000, guid: 32026e810b80344f9a7de2889177311a, type: 2}

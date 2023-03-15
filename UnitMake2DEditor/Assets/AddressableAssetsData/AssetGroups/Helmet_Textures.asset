@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Helmet_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Helmet_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8fafb6011d5b44059ad1108bbb9a73b3
+  m_SerializeEntries:
+  - m_GUID: 24ccb9712b7664d019f016c223a98271
+    m_Address: Elf_Helmet_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: c870c232125f04714956cf6243ac8d93
+    m_Address: Elf_Helmet_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 198e0b2ec07554a95910072732482c22
+    m_Address: Elf_Helmet_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 1d1b4b7ba4a494e38b9a1ec81aab3f86
+    m_Address: Elf_Helmet_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: b9af82e1c44914d07a11f312ae134f64
+    m_Address: Elf_Helmet_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 98e2fd992001d4df4aa97d7b01e5663a
+    m_Address: Elf_Helmet_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 0104de7e74b18471789d67ed6fd68290
+    m_Address: Elf_Helmet_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 29ae37d387391465f8fcdb02fcbfd6e0
+    m_Address: Elf_Helmet_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 053c7770c66d34e37b1055b61c5c552d
+    m_Address: Elf_Helmet_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: fcf021450f47b43bba24254fd35e3969
+    m_Address: Elf_Helmet_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: fbb876362d8d94457b0c86361e8202a0
+    m_Address: Elf_Helmet_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: fdc2a1d41648d49de852d2a93f56ef24
+    m_Address: Elf_Helmet_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 5381842923e55463bba0a605f1233239
+    m_Address: Elf_Helmet_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: f9df01dbda27e4e198ec8b7d886fb3a5
+    m_Address: Elf_Helmet_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 9d2da62806048462fb0749e2a07dba78
+    m_Address: Elf_Helmet_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 762f877f790fd40dd912648faf052e60
+    m_Address: Elf_Helmet_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 4297689aaf1aa4cfb8025deff3e70c80
+    m_Address: Elf_Helmet_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 6c12a0872a20a4bd698afd8b464c6411
+    m_Address: Elf_Helmet_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 808fa140eab1545d7938b189340bf060
+    m_Address: Elf_Helmet_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: a1c761cc93e744a0abb3d550fc74448b
+    m_Address: Elf_Helmet_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 7393f64de496449b48beac01e9c3382c
+    m_Address: Helmet_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 3672c1111dc664273b81caf196464fe0
+    m_Address: Helmet_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 5a03b339714d242bbab5244638855f1b
+    m_Address: Helmet_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 9bcaacb7815a048ec99ec1c8681aadb1
+    m_Address: Helmet_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 8aa2ffe25e58c456f8ddc5ea73aa7990
+    m_Address: Helmet_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 14f40bd8274bd4b6fb842c5d2accb040
+    m_Address: Helmet_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 201111e08d76e485cbc8b66dd575e741
+    m_Address: Helmet_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 933973bb6cfb44062ad1a76241d7db00
+    m_Address: Helmet_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 00386e5006361416b8842744bfbf8867
+    m_Address: Helmet_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 85e42a980cc5846b0a088378797d317e
+    m_Address: Helmet_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 11bf53cdace1945f8971469f62e6f675
+    m_Address: Helmet_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 10e7e819538834497987a8127bfdc931
+    m_Address: Helmet_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 1c710269fd34349278e6f10610ab764e
+    m_Address: Helmet_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: a5152bbeec2f542a69a5269b9f89ff57
+    m_Address: Helmet_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 04215f69098814f00b892fb7184d37d9
+    m_Address: Helmet_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 1143e63c219994f12bea115c8c2d0799
+    m_Address: Helmet_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 206bf3cc2853b4147a643721f81e6a0e
+    m_Address: Helmet_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: a049d37e46b204fc1aea57dea2f0297d
+    m_Address: Helmet_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: db6d02654d3bf4c389cc1d9acf51c91a
+    m_Address: Helmet_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: f6da9943a07194f99ba0cc698aac9ab6
+    m_Address: New_Helmet_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: fe4fb25b08db24f268083c38f92b80af
+    m_Address: New_Helmet_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 0f65e6d6ee1aa4bcaadbe33b0ce3cb7e
+    m_Address: New_Helmet_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 34ada5f2efd3b43808c91c547de505c6
+    m_Address: New_Helmet_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 74b9ce67185384db6bad6a359daedcb0
+    m_Address: New_Helmet_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 113bb5b745bfd4bd4b47fdf499cb148d
+    m_Address: New_Helmet_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 94a888400e3284d5fb58f609862a98ef
+    m_Address: New_Helmet_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 03f53142c01744ed58d12b3c6ff2e107
+    m_Address: New_Helmet_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 006db5afc23064158aed482e80c7c7be
+    m_Address: New_Helmet_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 5088f6138b80d4f60a6d791cc08c1b60
+    m_Address: New_Helmet_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 7e9d76a231fb045d7a8a2d62d39aeb59
+    m_Address: Normal_Helmet1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 038394ca7fd3349ee80605f4b7c6ba45
+    m_Address: Normal_Helmet2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: dc89bc6b0f83742c1acd7f593aa5223d
+    m_Address: Normal_Helmet3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 55dd29762923a4a03a1354c7691ac895
+    m_Address: Orc_Helmet_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: c88236eeb3a3849afa708d6776c9ff0f
+    m_Address: Orc_Helmet_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 9596b295c88f74a2ca89a6170d237897
+    m_Address: Orc_Helmet_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 79d26abf8a98f41f0957705628d7d239
+    m_Address: Orc_Helmet_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 00cfcfe2d6bd24b6db064405b8d229a1
+    m_Address: Orc_Helmet_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 986ead043c26c47cc821671ed42be541
+    m_Address: Undead_Helmet_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 8445ba10b1c0a4c818700f604ce3468e
+    m_Address: Undead_Helmet_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: eea4088a340fc4fb5a0d397cc5cb5599
+    m_Address: Undead_Helmet_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 36be7495e227d4930a42211087eb37d2
+    m_Address: Undead_Helmet_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: a23294c5dd5bc4f63907aa4d799950f1
+    m_Address: Undead_Helmet_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: c5f0eea8bd50343768f38ad1b706952e
+    m_Address: Undead_Helmet_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  - m_GUID: 6d6e00230e9344bac87f411e4b97c729
+    m_Address: Undead_Helmet_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Helmet_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3d2806a508ed74e3a940e50dd9bd2a4d, type: 2}
+    - {fileID: 11400000, guid: 86cf81b3882364b939a11b2a97bb826f, type: 2}

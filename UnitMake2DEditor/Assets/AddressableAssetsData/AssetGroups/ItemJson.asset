@@ -52,11 +52,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Json
-  - m_GUID: 6bd83edf8e3cb492f9b72d040f997738
-    m_Address: Weapon
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Json
   - m_GUID: cdb1c2584fcf54fd8a5e44722ff00979
     m_Address: Weapon_L
     m_ReadOnly: 0

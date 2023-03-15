@@ -257,7 +257,7 @@ public class Character_Script : MonoBehaviour
 
     private void Change_Cloth_Sprite(Object[] objects, WearItemInfo item)
     {
-
+        Cloth_Body_SR.sprite = null;
         Cloth_R_SR.sprite = null;
         Cloth_L_SR.sprite = null;
         foreach (var child in objects)
@@ -317,8 +317,10 @@ public class Character_Script : MonoBehaviour
 
     private void Change_Armor_Sprite(Object[] objects, WearItemInfo item)
     {
+        Armor_Body_SR.sprite = null;
         Armor_R_SR.sprite = null;
         Armor_L_SR.sprite = null;
+
         foreach (var child in objects)
         {
             if (child is Sprite)
@@ -461,9 +463,16 @@ public class Character_Script : MonoBehaviour
             wearSkinInfo_List.Add(mustacheSkinInfo);
         }
 
-        if (Cloth_Body_SR.sprite != null)
+        if (Cloth_Body_SR.sprite != null || Cloth_R_SR.sprite != null || Cloth_L_SR.sprite != null)
         {
-            WearSkinInfo clothSkinInfo = new WearSkinInfo("Cloth", Cloth_Body_SR.sprite.texture.name,
+            string cloth_texture_name;
+            if (Cloth_Body_SR.sprite != null)
+                cloth_texture_name = Cloth_Body_SR.sprite.texture.name;
+            else if (Cloth_R_SR.sprite != null)
+                cloth_texture_name = Cloth_R_SR.sprite.texture.name;
+            else
+                cloth_texture_name = Cloth_L_SR.sprite.texture.name;
+            WearSkinInfo clothSkinInfo = new WearSkinInfo("Cloth", cloth_texture_name,
                 ColorUtility.ToHtmlStringRGBA(Cloth_Body_SR.color));
             wearSkinInfo_List.Add(clothSkinInfo);
         }
@@ -475,9 +484,16 @@ public class Character_Script : MonoBehaviour
             wearSkinInfo_List.Add(pantsSkinInfo);
         }
 
-        if (Armor_Body_SR.sprite != null)
+        if (Armor_Body_SR.sprite != null || Armor_R_SR.sprite != null || Armor_L_SR.sprite != null)
         {
-            WearSkinInfo armorSkinInfo = new WearSkinInfo("Armor", Armor_Body_SR.sprite.texture.name,
+            string armor_texture_name;
+            if (Armor_Body_SR.sprite != null)
+                armor_texture_name = Armor_Body_SR.sprite.texture.name;
+            else if (Armor_R_SR.sprite != null)
+                armor_texture_name = Armor_R_SR.sprite.texture.name;
+            else
+                armor_texture_name = Armor_L_SR.sprite.texture.name;
+            WearSkinInfo armorSkinInfo = new WearSkinInfo("Armor", armor_texture_name,
                 ColorUtility.ToHtmlStringRGBA(Armor_Body_SR.color));
             wearSkinInfo_List.Add(armorSkinInfo);
         }
@@ -557,14 +573,24 @@ public class Character_Script : MonoBehaviour
         }
 
 
-        if (Cloth_Body_SR.sprite != null)
+        if (Cloth_Body_SR.sprite != null || Cloth_R_SR.sprite != null || Cloth_L_SR.sprite != null)
         {
-            WearItemInfo cloth_info = new WearItemInfo(Cloth_Body_SR.sprite.texture.name);
+            string cloth_texture_name;
+            if (Cloth_Body_SR.sprite != null)
+                cloth_texture_name = Cloth_Body_SR.sprite.texture.name;
+            else if (Cloth_R_SR.sprite != null)
+                cloth_texture_name = Cloth_R_SR.sprite.texture.name;
+            else
+                cloth_texture_name = Cloth_L_SR.sprite.texture.name;
+            WearItemInfo cloth_info = new WearItemInfo(cloth_texture_name);
+            if(Cloth_Body_SR.sprite != null)
             cloth_info.Add_SpriteNP(new SpriteNP(Cloth_Body_SR.sprite.name,
                 Cloth_Body_SR.transform.localPosition.x, Cloth_Body_SR.transform.localPosition.y));
-            cloth_info.Add_SpriteNP(new SpriteNP(Cloth_R_SR.sprite.name,
+            if (Cloth_R_SR.sprite != null)
+                cloth_info.Add_SpriteNP(new SpriteNP(Cloth_R_SR.sprite.name,
                 Cloth_R_SR.transform.localPosition.x, Cloth_R_SR.transform.localPosition.y));
-            cloth_info.Add_SpriteNP(new SpriteNP(Cloth_L_SR.sprite.name,
+            if (Cloth_L_SR.sprite != null)
+                cloth_info.Add_SpriteNP(new SpriteNP(Cloth_L_SR.sprite.name,
                 Cloth_L_SR.transform.localPosition.x, Cloth_L_SR.transform.localPosition.y));
 
             wear_dic.Add("Cloth", cloth_info);
@@ -572,6 +598,7 @@ public class Character_Script : MonoBehaviour
 
         if (Pants_R_SR.sprite != null)
         {
+
             WearItemInfo pants_info = new WearItemInfo(Pants_R_SR.sprite.texture.name);
             pants_info.Add_SpriteNP(new SpriteNP(Pants_R_SR.sprite.name,
                 Pants_R_SR.transform.localPosition.x, Pants_R_SR.transform.localPosition.y));
@@ -581,10 +608,18 @@ public class Character_Script : MonoBehaviour
             wear_dic.Add("Pants", pants_info);
         }
 
-        if (Armor_Body_SR.sprite != null)
+        if (Armor_Body_SR.sprite != null || Armor_R_SR.sprite != null || Armor_L_SR.sprite != null)
         {
-            WearItemInfo armor_info = new WearItemInfo(Armor_Body_SR.sprite.texture.name);
-            armor_info.Add_SpriteNP(new SpriteNP(Armor_Body_SR.sprite.name,
+            string armor_texture_name;
+            if (Armor_Body_SR.sprite != null)
+                armor_texture_name = Armor_Body_SR.sprite.texture.name;
+            else if (Armor_R_SR.sprite != null)
+                armor_texture_name = Armor_R_SR.sprite.texture.name;
+            else
+                armor_texture_name = Armor_L_SR.sprite.texture.name;
+            WearItemInfo armor_info = new WearItemInfo(armor_texture_name);
+            if(Armor_Body_SR.sprite != null)
+                armor_info.Add_SpriteNP(new SpriteNP(Armor_Body_SR.sprite.name,
                 Armor_Body_SR.transform.localPosition.x, Armor_Body_SR.transform.localPosition.y));
             if(Armor_R_SR.sprite != null)
                 armor_info.Add_SpriteNP(new SpriteNP(Armor_R_SR.sprite.name,

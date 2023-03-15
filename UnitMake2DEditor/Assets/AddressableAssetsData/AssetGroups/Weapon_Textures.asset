@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Weapon_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Weapon_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 351f5d34eec7e4f1699920a1dee76675
+  m_SerializeEntries:
+  - m_GUID: 4675dde00351e47cfb238f810592e321
+    m_Address: Axe_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 55be37a7ac12b4dfa9ece144e49bd9e1
+    m_Address: AxeLong1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: db0f0f7010e7f475c9da988fca304b5b
+    m_Address: AxeNormal1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: ea9e8100995194cd3bb197abecfc4ace
+    m_Address: AxeSmall1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 0e9487ffe727a453f805807e979ca740
+    m_Address: Bow_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: eecb56b3778e5404ba4d6225468b101c
+    m_Address: Elf_Shield_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 00a2b17a7c80e42d5bb9fb11e0402f1b
+    m_Address: Elf_Shield_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: cf12352fb60ca482b947ce72285e1014
+    m_Address: Elf_Shield_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 84ddbeef0144e47eb89c1530bb24eb5a
+    m_Address: Elf_Shield_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3fd6519ca95b148a794ed6c242fb9e84
+    m_Address: Elf_Weapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 5a22252ea60a74af19c9449bfaab27eb
+    m_Address: Elf_Weapon_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 51b8c4f43dc0e449fb1eda2007df00ca
+    m_Address: Elf_Weapon_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: ff6af0b12268f42229d9912c4ee763b1
+    m_Address: Elf_Weapon_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 151ad2669b7464dfd92c74251eb41754
+    m_Address: Elf_Weapon_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 6f1b899feb63e4d268f3c59b979837ed
+    m_Address: Elf_Weapon_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1237a6bff6186484eb54b5bb3a03fd59
+    m_Address: Elf_Weapon_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 50a1c5bd7ddd14329a194714275b258a
+    m_Address: Elf_Weapon_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: a73b58c2549a74953bb25386009f7dac
+    m_Address: Elf_Weapon_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 8d9ad6196370a46ebaff0c58567fca08
+    m_Address: Elf_Weapon_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 0379fc64ebe3b44999b7db70aff4d4df
+    m_Address: Elf_Weapon_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 9328f40334c964820a9083eded22d5ea
+    m_Address: Elf_Weapon_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 0b85aa4fd3f744e018bda97aba419dd7
+    m_Address: Elf_Weapon_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 21b9f299b33ff442c9302d2b55b983ec
+    m_Address: Elf_Weapon_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: bb608af58d3d34e06a16dc57e69d3735
+    m_Address: Elf_Weapon_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 511a36b272d244dac83ce78cc14d629d
+    m_Address: Elf_Weapon_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 75bf45b25810845659668b951435845b
+    m_Address: Elf_Weapon_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3cf54702cc5234b309c54eaecd212bef
+    m_Address: Elf_Weapon_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 34232041ce0e841b39417e3b33aa7aa6
+    m_Address: Elf_Weapon_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 111913ac9730d4914972b4861ebf5292
+    m_Address: Elf_Weapon_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 279dc1dc110d947bd97ee3d7ea06f441
+    m_Address: New_Shield_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 43327b5bf64234f9a9512691964d9655
+    m_Address: New_Shield_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: fe4dde4fee35f46d7ba5204ca1dbef2e
+    m_Address: New_Shield_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 05bae224b93ed479f982d1e49dd4bd9a
+    m_Address: New_Shield_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: e507ff61dcbfb4069b81892252677919
+    m_Address: New_Weapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 129bf2a80d6c74154a232f5e14229dd6
+    m_Address: New_weapon_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 084031126a90d4f049c0c4c575078e73
+    m_Address: New_Weapon_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 45f41d88c8a76479f99e2547f51bba01
+    m_Address: New_Weapon_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 70ac69c58c61a4d24a6981d2bc3e86fb
+    m_Address: New_Weapon_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: fd28a6bf2ec4b4d539fce275bfb1db30
+    m_Address: New_Weapon_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 03e42585aa0624aa28b4bf02126fcb74
+    m_Address: New_Weapon_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1aae99db329574e7699136d5b9047bbf
+    m_Address: New_Weapon_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 45ca09b16526644f0ab2255d412af139
+    m_Address: New_Weapon_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 4ed96c115afcb49b1acdbbe75daddf40
+    m_Address: New_Weapon_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3df6ab74b02104fb28ef1fed64c66232
+    m_Address: New_Weapon_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 756b61dab90844237aef964e081d5685
+    m_Address: New_Weapon_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: cdb74619f940b4c37857e3392dd0611f
+    m_Address: New_Weapon_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 8f8c314b18fbd4ee8bf251c6e6fb0fa6
+    m_Address: New_Weapon_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: e84aecca2f3e043828641297c51c71b4
+    m_Address: New_Weapon_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 78900eff8829c4f04a14ae11dec0cb01
+    m_Address: New_Weapon_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1aa85cd6e30824268a83467ca5c8dbc6
+    m_Address: New_Weapon_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: cfc6e821cd03d4a1a80274ca0a59c584
+    m_Address: New_Weapon_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 5d16cfb7c3bc84c3da877839f3ad25ae
+    m_Address: New_Weapon_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 0a288245f75d744d7b24f719b10d7fee
+    m_Address: New_Weapon_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 991fe8fa951104d939db574d6e66b0dc
+    m_Address: Orc_Shield_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: b8d2d06b564404d3185220ffab3a4a80
+    m_Address: Orc_Weapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 52ac7934d1ca54d358c90fc12c298f12
+    m_Address: Orc_Weapon_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 025324357106440488902bc5d343ca5b
+    m_Address: Orc_Weapon_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 8eec2311056404fbfbc7bcfdc097ddf2
+    m_Address: Orc_Weapon_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 28802ea811f754af3861863bbcd6b2c1
+    m_Address: Orc_Weapon_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 238430d85599545399d65b0eb1cbcd19
+    m_Address: Orc_Weapon_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 471e19594659d4bb7974d544d8cf2b01
+    m_Address: Orc_Weapon_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: b7c4dd1e2b82f4d968c16d00217b96ed
+    m_Address: Orc_Weapon_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: dc7a6557cfef24a939809c528beb815d
+    m_Address: Orc_Weapon_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: f9b3f7f79c0914f85878cbc099ac6be9
+    m_Address: Shield_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 540b9d227a5a3468eb78c5f5d1072fbb
+    m_Address: Shield_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 835ec44c6a3ae4191a0a0aafa01bbdde
+    m_Address: Shield_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 639b79988971f4551b316b9005a94489
+    m_Address: Shield_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: e4145ff8b185c4ced8b50dcf32e3aa04
+    m_Address: Shield_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 93307ac6b4d924d4db4bcffc6f3bf942
+    m_Address: Soon_Spear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 95bc5bcfe3b254e6cac11349920fb1e4
+    m_Address: Spear_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 34e6445a20b1d40928e64e74cd2fe17f
+    m_Address: SteelShield1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 5ee96360e0c6549cfb97001c5ed56143
+    m_Address: Sword_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 4d7f1118d3a9442f2abee9d388d72d07
+    m_Address: Sword_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: d221ca2b5885c4f84bd3a661b3e6cc6e
+    m_Address: Sword_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 45da7f313d0fb4e56af12437988e3092
+    m_Address: Sword_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3742e7d08ebe844b68c7f8508fc73a2a
+    m_Address: Sword_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 74b37f165294a488d8f8a8c5336ba4ce
+    m_Address: Sword_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1ba4c56bf62fd4cd8ada1225e7110fbc
+    m_Address: Undead_Shield_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 247672c84c12641a19d4da8a48b62ff9
+    m_Address: Undead_Shield_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: e7fb7c48e2f934e2f9d05250fbb4c927
+    m_Address: Undead_Shield_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: d5d084390a8954cd58402da3ef279694
+    m_Address: Undead_Weapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 5c605778940894963b9c5331102a3783
+    m_Address: Undead_Weapon_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 7c2161cd071e04b82b8c6330cc6341f1
+    m_Address: Undead_Weapon_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 02d568051d33b42949fe74bcf428bd6a
+    m_Address: Undead_Weapon_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: d8638494a358f4ed0968b1c49d273065
+    m_Address: Undead_Weapon_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 269677c7fca0b4969a38b20c2bcf8c50
+    m_Address: Undead_Weapon_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 5afaf90d8f4ac4946829df8c05c8c36b
+    m_Address: Undead_Weapon_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 41bbb387398bf44b48f241222191e245
+    m_Address: Undead_Weapon_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: eef2689047d194600bffbf8178f35000
+    m_Address: Undead_Weapon_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3859ecf235a8b4e868694fcb5dafbaf4
+    m_Address: Undead_Weapon_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 7fd929fb9a33440c184b5c393dfee472
+    m_Address: Ward_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: c8f48f10ba0e342e6b562f4d1f433889
+    m_Address: Weapon_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: ac2e53fec5f6c4f96b0a2345d6c871bc
+    m_Address: Weapon_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 88b3e6b1f288c4028aa5e7159f97ac03
+    m_Address: Weapon_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1694f2cf74c5a40f58c4dbc7c9cda280
+    m_Address: Weapon_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 054853b3df4ac4b2aa740fea32fc78ad
+    m_Address: Weapon_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: aa93106d2b7ae438caa29526469b2740
+    m_Address: Weapon_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: dc63f516d6744402f96ec9ffbde094f4
+    m_Address: Weapon_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 3d9972cc1ad2f4cbd8f6ac47bd55a524
+    m_Address: Weapon_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 57abd63c01a3e423b8f3595c2cf330e0
+    m_Address: Weapon_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 2db0a1cd073cf4cc0bfd341993878861
+    m_Address: Weapon_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 192865d4b45b3404bbd4bed80f1e88b2
+    m_Address: WoodShield1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: eb3075d446bbf4f7eade7a6d1d1f358e
+    m_Address: WoodShield2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 0f21327f586a941e9b63fba8b7acb291
+    m_Address: WoodShield3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 93f4ba89db29b4f54887404c23c6a3f9
+    m_Address: WoodShield4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 2cce4fd63fd324450ae2c0f79ffa03df
+    m_Address: Throwable_Butter_Knife
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 2209d9174aabe4c81951dcf0d26b3987
+    m_Address: Throwable_Kunai
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: b57b4d799763a4eb3b992cddc49dd35c
+    m_Address: Throwable_Shank
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 05e032623d9914a09b8737c67b0f8f43
+    m_Address: Throwable_Shuriken_A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: cb473b8aa3ef44fa1b3a803f5427074e
+    m_Address: Throwable_Shuriken_B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 43b14367faf5842a580982c5a27cb9cd
+    m_Address: Throwable_Shuriken_C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 1180c6752db2147d792de6cb7ccd8b62
+    m_Address: Throwable_Shuriken_D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: 45d7ad3ecc83441b0a462c7c448d9a06
+    m_Address: Throwable_Shuriken_E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  - m_GUID: f421c1f0e23b24ea8ac43b2d615b2fd3
+    m_Address: Throwable_Shuriken_F
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Weapon_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 31ac828adfd1648ebadf3ace2800a5b2, type: 2}
+    - {fileID: 11400000, guid: 98158cbe39a714181bdf38d7b235a9d7, type: 2}

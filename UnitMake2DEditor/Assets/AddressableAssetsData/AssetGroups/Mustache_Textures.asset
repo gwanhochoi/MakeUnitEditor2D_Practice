@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Mustache_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Mustache_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4a2dda49b678744968f9169ea63a2002
+  m_SerializeEntries:
+  - m_GUID: 1b7bdd30da1df4306bda00a83c93b098
+    m_Address: FaceHair_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: 85157ac2d5c8649acaad1b4b02434c7a
+    m_Address: FaceHair_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: 385d9b43f4ca54ef29da80cab5ff6d3b
+    m_Address: FaceHair_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: 523f6556ac8b9471a96ce66522d9d135
+    m_Address: FaceHair_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: a3179b094f344478ba6e1d00760a2934
+    m_Address: FaceHair_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: ec20d287f50d14bb283f63eae3164e14
+    m_Address: Normal_Mustache1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: 6002155a8b5ac4e05bd04cccb537226a
+    m_Address: Normal_Mustache2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: cd0edfd93c2774e29b4d33be04f81bcc
+    m_Address: 'Orc_Mouse_01 '
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: f52e95c08274f4822bd7394aea4a188a
+    m_Address: Orc_Mouse_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: fd3cadfd4a3bc45509dfb2b3144e985c
+    m_Address: Orc_Mouse_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  - m_GUID: 4644fc6f7fee64515acd583781fa711a
+    m_Address: Orc_Mouse_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mustache_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4d142f7ac62014f33a6e62ab1a12f00a, type: 2}
+    - {fileID: 11400000, guid: ef1f2909d4c6d4a4386ccbfe0adaefa6, type: 2}

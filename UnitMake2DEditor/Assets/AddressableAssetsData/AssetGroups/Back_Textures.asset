@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Back_Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Back_Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bc561f38289fd4948ad7ed0cadafd2c3
+  m_SerializeEntries:
+  - m_GUID: 8abd2788ec3514938a7ec9fd308ffc73
+    m_Address: Back_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: fa67bac2160e34a2aa6550fe7d712d5b
+    m_Address: Back_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 3494078bebe4e44f0a1c76374cea6338
+    m_Address: Back_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: f6bc31f49d6234fba8d8ee7ad162fe33
+    m_Address: Back_Archer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: eee7f0c6b9481484aafdf719b330c1c3
+    m_Address: Back_Archer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 422e67bf355e24d179944d836b3e5039
+    m_Address: Back_Healer_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 000660170ffcc48ff8708a650a250e3d
+    m_Address: Back_Healer_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 4692be9ea17c544ee81754569f3fb4b3
+    m_Address: Back_Knight_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: c1619665d49f64ed38aa2eb56cbacd00
+    m_Address: Back_Knight_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: be81ad4720f0b4905bdfd0d114fb77ad
+    m_Address: Back_Rogue_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: e1dac81a9bd5c4523b960cd4f5a6fad4
+    m_Address: Back_Rogue_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 9cdbdd34f0a864e538ead9a887207197
+    m_Address: Back_Sorcerer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 41897b1b6d50844018922852453ce516
+    m_Address: Back_Sorceress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 6d824ee44a6594d17ac6ffd1ecddb38c
+    m_Address: BowBack_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 80c5d42005035452d8449e17f5ae22fd
+    m_Address: Elf_Back_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: f8bb4217811d7403ba158492167e6e20
+    m_Address: Elf_Back_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 6339a2816615d4d34ae473a98da975a4
+    m_Address: Elf_Back_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 4863c68d464ab494296401bc44073694
+    m_Address: Elf_Back_04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 5c78b659de9d447e7a573973a87a2889
+    m_Address: Elf_Back_05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: a6c79fc61a5d942ef9c0a575e393d055
+    m_Address: Elf_Back_06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 74a27c437b78b419486ed8755505dff6
+    m_Address: Elf_Back_07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: d7c65619cb68a4d67a553564d7e0bfe4
+    m_Address: Elf_Back_08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 5de11b45ae74e47888dd43806307b2ad
+    m_Address: Elf_Back_09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 6c8e795e9ad554218a6487f96e0447a4
+    m_Address: Elf_Back_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 77c0cca096ac14b0aa3134dbb1c1c470
+    m_Address: Elf_Back_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 822622e37e87e4593b48a4a91db27876
+    m_Address: Elf_Back_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 8241b29a5ef094ac4acdfb25af14549a
+    m_Address: New_Back_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 53ec2d142894049138c4b4b566950fbc
+    m_Address: New_Back_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 7d33443148c1b48399337406c93a95c5
+    m_Address: Orc_Back_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 29a750f417c7f488b9b5bad2c16c71fc
+    m_Address: Orc_Back_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: abff58a344c6c46709f1f66b7692dfd3
+    m_Address: Orc_Back_03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: cd6ab1c71d08f4e76961a2cc06c311ed
+    m_Address: Soon_Back1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 69819310885734217a76d8a9a971e7c7
+    m_Address: Undead_Back_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  - m_GUID: 0fbd77c9b711346ee9097a9b49ccba2a
+    m_Address: Undead_Back_02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Back_Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 269a3563e4ec04fb0aae85182a091627, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9ae61282526f44f1d8fea64c051ccd20, type: 2}
+    - {fileID: 11400000, guid: 1666ed0cbb4af499cb68030370654fa4, type: 2}

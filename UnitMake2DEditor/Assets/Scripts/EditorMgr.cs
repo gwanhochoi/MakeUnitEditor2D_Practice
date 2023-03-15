@@ -106,6 +106,19 @@ public class EditorMgr : MonoBehaviour
 
     }
 
+    public void Edit_Save_Skin()
+    {
+        string unit_name = Unit_ShowWindow.GetComponent<Character_Script>().unit_name;
+        Debug.Log("unit_name = " + unit_name);
+        string path = Path.Combine(Application.dataPath + "/UnitSkinJson/", unit_name);
+
+        jsonUtil.Save_Data(path, Unit_ShowWindow.GetComponent<Character_Script>().Get_WearSkin_Info());
+
+
+        unitListMgr.Update_Item(unit_name);
+
+    }
+
     public void Delete_Unit(string unit_name)
     {
         unitListMgr.Delete(unit_name);
@@ -120,7 +133,8 @@ public class EditorMgr : MonoBehaviour
 
     IEnumerator Update_Unit_List_Cor()
     {
-        yield return new WaitForSecondsRealtime(0.3f);
+        yield return new WaitForSecondsRealtime(0.5f);
+        
 
 
     }
